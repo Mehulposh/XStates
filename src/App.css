@@ -12,7 +12,7 @@ span{
  
 }
 
-#state{
+#state , #country{
   font-size: 1.5rem;
   color: grey;
 }
