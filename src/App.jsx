@@ -88,7 +88,7 @@ function App() {
       <Select data={cities} handler={handleCityChange} name="City" disabled={!selectedState}/>
       </div>
       {selectedCity && (
-        <h3>You selected <span id='city'>{selectedCity}</span>, <span id='state'>{selectedState}</span>,<span id='country'>{selectedCountry}</span> </h3>
+        <h3>You selected <span id='city'>{selectedCity}</span>, <span id='state'>{selectedState}</span>, <span id='country'>{selectedCountry}</span> </h3>
       )}
     </div>
   );
